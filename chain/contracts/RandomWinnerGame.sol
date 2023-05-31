@@ -39,10 +39,10 @@ contract RandomWinnerGame is VRFV2WrapperConsumerBase, ConfirmedOwner {
     event GameEnded(uint256 gameId, address winner, uint256 requestId);
 
     // Address LINK - hardcoded for Sepolia
-    address linkAddress = 0x779877A7B0D9E8603169DdbD7836e478b4624789;
+    address linkAddress = 0x326C977E6efc84E512bB9C30f76E30c160eD06FB;
 
     // address WRAPPER - hardcoded for Sepolia
-    address wrapperAddress = 0xab18414CD93297B0d12ac29E63Ca20f515b3DB46;
+    address wrapperAddress = 0x99aFAf084eBA697E584501b8Ed2c0B37Dd136693;
 
     constructor()
         ConfirmedOwner(msg.sender)

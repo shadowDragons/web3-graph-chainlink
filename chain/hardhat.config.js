@@ -6,12 +6,12 @@ require('dotenv').config({ path: '.env' })
 module.exports = {
   solidity: "0.8.9",
   networks: {
-    sepolia: {
-      url: `https://eth-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
-      accounts: [process.env.SEPOLIA_PRIVATE_KEY]
+    mumbai: {
+      url: `https://polygon-mumbai.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
+      accounts: [process.env.MUMBAI_PRIVATE_KEY]
     }
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API,
+    apiKey: process.env.POLYGONSCAN_API_KEY,
   },
 };
