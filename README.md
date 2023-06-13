@@ -1,7 +1,5 @@
 ### 随机数游戏的 Dapp
 
-环境：`sepolia`测试网络
-
 技术栈：`solidity` + `chainlink` + `graph` + `react` + `next.js`
 
 流程：
